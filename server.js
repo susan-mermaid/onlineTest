@@ -9,7 +9,7 @@ var examcontent =  require("./routes/examcontent");
 var examhistory = require("./routes/examhistory");
 var cors = require("cors");
 
-var port = 3000;
+var port = 10001;
 
 var app = express();
 app.use(cors());
